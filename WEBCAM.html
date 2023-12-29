@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WEBCAM</title>
+        <meta name="description" content="WEBCAM Data Stream Displayer">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <nav>
+	    	<ul>
+	        	<li><a href="./index.html">HOME</a></li>
+	        	<li><a>WEBCAM</a></li>
+			    <li><a href="./info.html">INFO</a></li>
+                <li><a href="./WIFI_editor.html">WIFI EDITOR</a></li>
+	    	</ul>
+		</nav>
+        <h1>ELECTRONICS SYSTEM DESIGN: WEBCAM</h1>
+        <h2 class="typewriter">the display.</h2>
+        
+        <p>
+            In this project course, one spends an entire quarter working on the development of a complete electronics embedded system. In this case, a embedded webcam. 
+        </p>
+        
+        <!--WEBCAM DISPLAY-->
+   
+       <h3 id="timestamp">Time Stamp</h3>
+
+       <img id="image" alt="My webcam image" width="640" height="480">
+        
+       <button id="btnWS" title="Click to start webcam" class="button">START WEBCAM</button>
+        
+       <hr style="border-width: 4px;">
+        
+       <h4>LOG</h4>
+
+       <textarea id="msg" rows="20" cols="50" style="display: block; margin: auto;">&nbsp;</textarea>
+
+       <script src="WEBCAM_function.js"></script>
+    </body>
+</html>
